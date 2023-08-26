@@ -20,6 +20,39 @@
         <title>Pokedex</title>
     </head>
     <body>
+        <section>
+            <nav>
+                <ul>
+                    <li id="gen1">
+                        Kanto - 1ª Geração
+                    </li>
+                    <li id="gen2">
+                        Johto - 2ª Geração
+                    </li>
+                    <li id="gen3">
+                        Hoenn - 3ª Geração
+                    </li>
+                    <li id="gen4">
+                        Sinnoh - 4ª Geração
+                    </li>
+                    <li id="gen5">
+                        Unova - 5ª Geração
+                    </li>
+                    <li id="gen6">
+                        Kalos - 6ª Geração
+                    </li>
+                    <li id="gen7">
+                        Alola - 7ª Geração
+                    </li>
+                    <li id="gen8">
+                        Galar - 8ª Geração
+                    </li>
+                    <li id="gen9">
+                        Paldea - 9ª Geração
+                    </li>
+                </ul>
+            </nav>
+    </section>
         <section class="content">
             <h1>Pokedex</h1>
             <ol id="pokemonList" class="pokemons">
@@ -37,7 +70,12 @@
                     </div>
                 </li> -->
             </ol>
+            <div class="pagination">
+                <button type="button" id="loadMore">Load More</button>
+            </div>
+            
         </section>
+        <script src="assets\js\pokemon-model.js"></script>
         <script src="assets\js\pokeapi.js"></script>
         <script src="assets\js\main.js"></script>
     </body>
